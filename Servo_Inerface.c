@@ -8,7 +8,7 @@
 
 void ServoMotor_Initialize(void)
 {
-	//Define Direction for OCR2 pin as output
+	//Define Direction for OCR0 pin as output
 	Set_Bit(DDRB, PB3);
 	//Choose mode from timer0 modes
 	Set_Bit(TCCR0, WGM01);Set_Bit(TCCR0, WGM00);

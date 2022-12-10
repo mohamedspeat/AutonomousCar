@@ -8,7 +8,7 @@
 #include <avr/io.h>
 #include "main.h"
 
-#define DELAY    500
+#define DELAY    200
 int main(void)
 {
 	

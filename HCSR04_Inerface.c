@@ -10,7 +10,6 @@ void HCSR04_init(void)
 {
 	DIO_SetPin_Direction(HCSR04_TRIG_PORT,HCSR04_TRIG_PIN,HCSR04_Out);
 	DIO_SetPin_Direction(HCSR04_ECHO_PORT,HCSR04_ECHO_PIN,HCSR04_in);
-	//DIO_SetPin_pullup(HCSR04_ECHO_PORT,HCSR04_ECHO_PIN);
 }
 Uint16_t Get_distance(void)
 {
